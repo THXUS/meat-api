@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  meat-api-docker:
+    build:
+      target: production
+    command: node dist/index.js
