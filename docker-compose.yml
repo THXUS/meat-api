@@ -8,6 +8,7 @@ services:
       target: base
     volumes: 
       - ./src:/home/node/app/src
+      - ./dist:/home/node/app/dist
       - ./nodemon.json:/home/node/app/nodemon.js
     container_name: meat-api-docker
     expose:
